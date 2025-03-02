@@ -24,5 +24,11 @@ namespace TP_Modul_03
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            // Ambil teks dari TextBox dan tampilkan di Label
+            OutputLabel.Content = "Nama Saya Adalah " + inputBox.Text;
+        }
     }
 }
